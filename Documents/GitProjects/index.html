@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container">
+    
+	  <!-- Modal -->
+	  <div id="myModal" class="modal">
+      <div class="modal-content">
+	    <p>You won!</p>
+	    <p><span id="moves-final"></span> moves</p>
+	    <p><span id="timeMinutes"></span>:<span id="timeSeconds"</span></p>
+	    <p>Rating <span id="rating-final"></span><p>
+	    <p>Play again?</p>
+	    <button class='restart close'>Yes</button>
+	    <button class='close'>No</button>
+	  </div>
+	  </div>
+    
+	  <header>
+        <h1>Memory Game</h1>
+      </header>
+
+	  <!-- Score panel -->
+      <section class="score-panel">
+        <ul class="stars">
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <span class="moves">0</span> Moves
+		<div class="restart">
+          <i class="fa fa-repeat"></i>
+        </div>
+		<div id="timer"><span id="minutes">00</span>:<span id="seconds">00</span></div>
+      </section>
+
+      <!-- Deck of cards -->
+	  <ul class="deck">
+        <li class="card">        
+        </li>
+        
+		<li class="card">
+        </li>
+            
+	    <li class="card">
+        </li>
+        
+		<li class="card">        
+        </li>
+        
+		<li class="card">        
+        </li>
+        
+		<li class="card">  
+        </li>
+		
+        <li class="card">        
+        </li>
+		
+        <li class="card">
+        </li>
+		
+        <li class="card">        
+        </li>
+		
+        <li class="card">       
+        </li>
+		
+        <li class="card">  
+        </li>
+		
+        <li class="card">   
+        </li>
+		
+        <li class="card">    
+        </li>
+		
+        <li class="card">  
+        </li>
+		
+        <li class="card">     
+        </li>
+		
+        <li class="card">   
+        </li>
+		
+      </ul>
+    
+	</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
